@@ -41,6 +41,15 @@ public class AdjacencyMapGraph {
         return u.getOutgoing().get(v);
     }
 
+    public Vertex getVertex(int id){
+        for (int i = 0; i < vertices.size(); i++) {
+            if (vertices.get(i).getPerson().getId()==id){
+                return vertices.get(i);
+            }
+        }
+        return null;
+    }
+
     public Vertex[] endVertices(Edge e){
         return e.getEndpoint();
     }
@@ -55,7 +64,7 @@ public class AdjacencyMapGraph {
 
     }
 
-    public Vertex insertVertex(Integer element){
+    public Vertex insertVertex(Person element){
         Vertex v = new Vertex(element,isDirected);
         vertices.add(v);
         return v;
@@ -69,7 +78,7 @@ public class AdjacencyMapGraph {
             v.getIncoming().put(u,e);
             return e;
         }else
-            throw new IllegalArgumentException("Edge from u to v exists ");
+            return null;
     }
 
     public void removeVertex(Vertex v){

@@ -1,3 +1,6 @@
+package Graph;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class Person {
@@ -7,10 +10,12 @@ public class Person {
     private String universityLocation;
     private String field;
     private String workPlace;
-    private List<String> specialties;
-    private List<String> connectionId;
+    private ArrayList<String> specialties;
+    private ArrayList<String> connectionId;
 
-    public Person(int id, String name, String dateOfBirth, String universityLocation, String field, String workPlace, List<String> specialties, List<String> connectionId) {
+    private String email;
+
+    public Person(int id, String name, String dateOfBirth, String universityLocation, String field, String workPlace, ArrayList<String> specialties, ArrayList<String> connectionId) {
         this.id = id;
         this.name = name;
         this.dateOfBirth = dateOfBirth;
@@ -25,6 +30,14 @@ public class Person {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public void setName(String name) {
@@ -47,11 +60,11 @@ public class Person {
         this.workPlace = workPlace;
     }
 
-    public void setSpecialties(List<String> specialties) {
+    public void setSpecialties(ArrayList<String> specialties) {
         this.specialties = specialties;
     }
 
-    public void setConnectionId(List<String> connectionId) {
+    public void setConnectionId(ArrayList<String> connectionId) {
         this.connectionId = connectionId;
     }
 

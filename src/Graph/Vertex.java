@@ -3,12 +3,13 @@ package Graph;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class Vertex {
-     private Integer element;
+     private Person person;
 
      private Map<Vertex,Edge> outgoing,incoming;
-     public Vertex(Integer elem,boolean graphIsDirection){
-          element = elem;
+     public Vertex(Person elem,boolean graphIsDirection){
+          person = elem;
           outgoing = new HashMap<>();
           if (graphIsDirection)
                incoming = new HashMap<>();
@@ -16,8 +17,8 @@ public class Vertex {
                incoming=outgoing;
      }
 
-     public Integer getElement() {
-          return element;
+     public Person getPerson() {
+          return person;
      }
 
 
