@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7305fa38-38b2-4c62-8408-a1c9823b6c0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/UserInterface.java" afterDir="false" />
+    <list default="true" id="7305fa38-38b2-4c62-8408-a1c9823b6c0d" name="Changes" comment="change json file(it upgrade to 2000 user and each user now have an email address).Write som method for interface with user,login,show all users and search in users.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BuildGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BuildGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Graph/AdjacencyMapGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/AdjacencyMapGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/Position.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReadJsonFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BuildGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/UserInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +83,18 @@
       <workItem from="1674067032839" duration="6739000" />
       <workItem from="1674073930611" duration="9764000" />
       <workItem from="1674118953121" duration="9136000" />
-      <workItem from="1674195403146" duration="1503000" />
+      <workItem from="1674195403146" duration="17899000" />
+      <workItem from="1674287494377" duration="28031000" />
+      <workItem from="1674370677205" duration="4154000" />
     </task>
+    <task id="LOCAL-00001" summary="change json file(it upgrade to 2000 user and each user now have an email address).Write som method for interface with user,login,show all users and search in users.">
+      <created>1674197700048</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674197700048</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +110,25 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change json file(it upgrade to 2000 user and each user now have an email address).Write som method for interface with user,login,show all users and search in users." />
+    <option name="LAST_COMMIT_MESSAGE" value="change json file(it upgrade to 2000 user and each user now have an email address).Write som method for interface with user,login,show all users and search in users." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/View/UserInterface.java</url>
+          <line>285</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/View/UserInterface.java</url>
+          <line>295</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

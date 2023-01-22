@@ -26,7 +26,7 @@ public class BuildGraph {
 
     private void read() throws IOException {
 
-        BufferedReader reader=new BufferedReader(new FileReader("users.json"));
+        BufferedReader reader=new BufferedReader(new FileReader("users1.json"));
         ObjectMapper mapper=new ObjectMapper();
         JsonNode node=mapper.readTree(reader);
 
@@ -37,7 +37,7 @@ public class BuildGraph {
             people[i].setDateOfBirth(node.get(i).path("dateOfBirth").asText());
             people[i].setUniversityLocation(node.get(i).path("universityLocation").asText());
             people[i].setField(node.get(i).path("field").asText());
-            people[i].setWorkPlace(node.get(i).path("workPlace").asText());
+            people[i].setWorkPlace(node.get(i).path("workplace").asText());
 
             ArrayList<String> list = new ArrayList<>();
             for (int j = 0; j < node.get(i).path("specialties").size(); j++) {

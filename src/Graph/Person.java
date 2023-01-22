@@ -12,7 +12,6 @@ public class Person {
     private String workPlace;
     private ArrayList<String> specialties;
     private ArrayList<String> connectionId;
-
     private String email;
 
     public Person(int id, String name, String dateOfBirth, String universityLocation, String field, String workPlace, ArrayList<String> specialties, ArrayList<String> connectionId) {
