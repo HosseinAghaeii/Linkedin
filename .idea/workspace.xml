@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7305fa38-38b2-4c62-8408-a1c9823b6c0d" name="Changes" comment="Write some method for connect users to another and show 20 or less suggestion .">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/BuildGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GraphAndJsonFileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/AdjacencyMapGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/AdjacencyMapGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graph/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/Vertex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/UserInterface.java" afterDir="false" />
-    </list>
+    <list default="true" id="7305fa38-38b2-4c62-8408-a1c9823b6c0d" name="Changes" comment="1-change Json file&#10;2-solve problem in InterfaceUser class about size of json file&#10;3-fix Controller package and build Model package" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +77,7 @@
       <workItem from="1674118953121" duration="9136000" />
       <workItem from="1674195403146" duration="17899000" />
       <workItem from="1674287494377" duration="28031000" />
-      <workItem from="1674370677205" duration="4818000" />
+      <workItem from="1674370677205" duration="5150000" />
     </task>
     <task id="LOCAL-00001" summary="change json file(it upgrade to 2000 user and each user now have an email address).Write som method for interface with user,login,show all users and search in users.">
       <created>1674197700048</created>
@@ -101,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674380273087</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1-change Json file&#10;2-solve problem in InterfaceUser class about size of json file&#10;3-fix Controller package and build Model package">
+      <created>1674381154814</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674381154814</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +120,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change json file(it upgrade to 2000 user and each user now have an email address).Write som method for interface with user,login,show all users and search in users." />
     <MESSAGE value="Write some method for connect users to another and show 20 or less suggestion ." />
-    <option name="LAST_COMMIT_MESSAGE" value="Write some method for connect users to another and show 20 or less suggestion ." />
+    <MESSAGE value="1-change Json file&#10;2-solve problem in InterfaceUser class about size of json file&#10;3-fix Controller package and build Model package" />
+    <option name="LAST_COMMIT_MESSAGE" value="1-change Json file&#10;2-solve problem in InterfaceUser class about size of json file&#10;3-fix Controller package and build Model package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
