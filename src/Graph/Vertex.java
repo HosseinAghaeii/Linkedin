@@ -1,5 +1,7 @@
 package Graph;
 
+import Model.Person;
+
 import java.util.HashMap;
 import java.util.Map;
 

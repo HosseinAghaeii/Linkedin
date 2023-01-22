@@ -1,7 +1,7 @@
 package Controller;
 
 import Graph.AdjacencyMapGraph;
-import Graph.Person;
+import Model.Person;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -9,9 +9,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
-public class BuildGraph {
+public class GraphAndJsonFileController {
    private AdjacencyMapGraph graph = new AdjacencyMapGraph(false);
 
     public Person[] getPeople() {

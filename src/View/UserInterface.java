@@ -1,8 +1,8 @@
 package View;
 
-import Controller.BuildGraph;
+import Controller.GraphAndJsonFileController;
 import Graph.Edge;
-import Graph.Person;
+import Model.Person;
 import Graph.Vertex;
 
 import java.io.IOException;
@@ -12,7 +12,7 @@ public class UserInterface {
     //int currentID;
     private Person currentPerson;
     private Vertex curVertex;
-    BuildGraph graphBuilder = new BuildGraph();
+    GraphAndJsonFileController graphBuilder = new GraphAndJsonFileController();
     Scanner input = new Scanner(System.in);
     int specialityPoint = 13;
     int universityPoint = 6;
@@ -49,7 +49,7 @@ public class UserInterface {
     private void login() {
         System.out.println("please login in your account(inter your ID):");
         int id = input.nextInt();
-        if (id < 1 || id > 999) {
+        if (id < 1 || id > 2000) {
             System.out.println("invalid Id!");
             System.out.println("Do you want to login again? Yes(1)  No(0)");
             int chooser = input.nextInt();
@@ -187,7 +187,7 @@ public class UserInterface {
 
     private boolean checkId(int id) {
         boolean check = true;
-        if (id < 1 || id > 999) {
+        if (id < 1 || id > 2000) {
             check = false;
         }
         return check;
